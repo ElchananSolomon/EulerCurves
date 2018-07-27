@@ -21,6 +21,6 @@ Files
 Notes
 -----
 1. There is room for streamlining the data, tuning the computation pipeline, and building a more complex prediction model.
-2. So far, MNIST accuracy tops out at around 88%, and Devangari accuracy tops out at around 80%. Higher percentages can be expected by loading more training data, but the code takes a while to run. 
+2. So far, MNIST accuracy tops out at around 93%, and Devangari accuracy tops out at around 80%. Higher percentages can be expected by loading more training data, but the code takes a while to run. 
 
 For any questions, contact Elchanan Solomon at ysolomon AT math DOT brown DOT edu.
