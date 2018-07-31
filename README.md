@@ -22,7 +22,9 @@ Notes
 -----
 1. There is room for streamlining the data, tuning the computation pipeline, and building a more complex prediction model.
 2. Performance on Default Settings:
+
 MNIST -- 200 training images/100 testing images, 12 directions, runs 1-2 mins, 86% accuracy
+
 Devanagari -- 10 training images per letter/5 testing images per letter, 3 directions, runs 1-2 minutes, 76% accuracy
 
 Accuracy can improved by adding more directions, a larger training set, and adjusting the classifier.
