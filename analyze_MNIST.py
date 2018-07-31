@@ -9,12 +9,14 @@ import ECC
 import numpy as np
 
 #Sample 8 directions on the unit circle
-#directions = [(np.cos(x),np.sin(x)) for x in np.linspace(0,2*np.pi,8)]
+#directions = [(np.cos(x),np.sin(x)) for x in np.linspace(0,2*np.pi,20)]
 #some sample directions
 directions = [(1,0),(0,1),(-1,0),(0,-1),(1,1),(1,-1),(-1,1),(-1,-1),(2,1),(2,-1),(-2,1),(-2,-1)]
+
 
 #Predict labels for 100 test images
 labels = ECC.predict_labels(mnist_train_data,mnist_train_labels,mnist_test_data[:100],directions)
 #Display the score
-print(sum(labels == mnist_test_labels[:100]))
+print('Accuracy on the test set: ' + str(sum(labels == mnist_test_labels[:100])) +'%' )
+
 

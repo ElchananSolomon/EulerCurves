@@ -26,7 +26,7 @@ import pandas as pd
 import numpy as np
 
 #These variables control the size of the training and testing subsets
-training_size = 250
+training_size = 1000
 testing_size = 100
 
 #Read in the 60,000 x 785 CSV file

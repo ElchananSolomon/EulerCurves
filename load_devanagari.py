@@ -19,7 +19,7 @@ devan_test_labels -- an array of character labes matching devan_tests_figures
 @author: Elchanan Solomon
 """
 #Specify size of training and testing set
-training_size = 5
+training_size = 10
 testing_size = 5
 
 # Load Devanagari Data
